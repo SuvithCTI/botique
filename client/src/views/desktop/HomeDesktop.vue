@@ -5,29 +5,29 @@
       <img 
         src="/images/hero/hero-womens-couture.jpg" 
         alt="Lecotrus Women's Haute Couture Hero"
-        class="absolute inset-0 w-full h-full object-cover opacity-90 scale-100 transition-transform duration-1000 ease-out"
+        class="absolute inset-0 w-full h-full object-cover opacity-100 scale-100 transition-transform duration-1000 ease-out"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/40"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-black/20"></div>
 
       <div class="relative z-10 max-w-4xl text-center px-6 space-y-6">
-        <h1 class="font-serif text-5xl md:text-7xl font-normal tracking-[0.2em] text-white leading-tight drop-shadow-md">
+        <h1 class="font-serif text-5xl md:text-7xl font-normal tracking-[0.2em] text-white leading-tight drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">
           ARCHITECTURAL <br />
           <span class="text-[#fef08a] italic font-serif">OPULENCE</span>
         </h1>
-        <p class="text-sm md:text-base text-zinc-100 max-w-xl mx-auto font-light tracking-widest leading-relaxed drop-shadow">
+        <p class="text-sm md:text-base text-zinc-100 max-w-xl mx-auto font-light tracking-widest leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
           Where sculptural avant-garde draping meets timeless generational Indian craftsmanship.
         </p>
 
         <div class="pt-6 flex items-center justify-center gap-6">
           <RouterLink 
             to="/bridal" 
-            class="px-8 py-3.5 bg-[#18181b] text-white text-xs font-semibold uppercase tracking-[0.25em] hover:bg-[#b8860b] shadow-xl transition-all"
+            class="px-8 py-3.5 bg-[#18181b]/90 text-white text-xs font-semibold uppercase tracking-[0.25em] hover:bg-[#b8860b] shadow-2xl transition-all border border-white/20 backdrop-blur-xs"
           >
             Explore Bridal Heirloom
           </RouterLink>
           <RouterLink 
             to="/women" 
-            class="px-8 py-3.5 bg-white/95 border border-zinc-300 text-black text-xs font-medium uppercase tracking-[0.25em] hover:border-black hover:bg-white transition-all shadow-md backdrop-blur-sm"
+            class="px-8 py-3.5 bg-white/95 border border-zinc-300 text-black text-xs font-medium uppercase tracking-[0.25em] hover:border-black hover:bg-white transition-all shadow-xl backdrop-blur-sm"
           >
             View Women's Couture
           </RouterLink>
@@ -40,22 +40,22 @@
       <img 
         src="/images/hero/menswear-fullsize-banner.jpg" 
         alt="Lecotrus Royal Menswear Heritage Campaign"
-        class="absolute inset-0 w-full h-full object-cover opacity-90 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
+        class="absolute inset-0 w-full h-full object-cover opacity-100 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
 
       <div class="relative z-10 max-w-4xl text-center px-6 space-y-5">
-        <h2 class="font-serif text-5xl md:text-7xl font-normal tracking-[0.2em] text-white leading-tight drop-shadow-md">
+        <h2 class="font-serif text-5xl md:text-7xl font-normal tracking-[0.2em] text-white leading-tight drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">
           MENSWEAR
         </h2>
-        <p class="text-sm md:text-base text-zinc-100 max-w-xl mx-auto font-light tracking-widest leading-relaxed drop-shadow">
+        <p class="text-sm md:text-base text-zinc-100 max-w-xl mx-auto font-light tracking-widest leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
           Imperial silk achkans, tailored bandhgalas, and bespoke sherwanis hand-embroidered for the contemporary connoisseur.
         </p>
 
         <div class="pt-4 flex items-center justify-center">
           <RouterLink 
             to="/men" 
-            class="px-10 py-4 bg-transparent border-2 border-white text-white text-xs font-semibold uppercase tracking-[0.3em] hover:bg-white hover:text-black shadow-2xl transition-all duration-300 backdrop-blur-xs"
+            class="px-10 py-4 bg-black/40 border-2 border-white text-white text-xs font-semibold uppercase tracking-[0.3em] hover:bg-white hover:text-black shadow-2xl transition-all duration-300 backdrop-blur-xs"
           >
             Explore Collection →
           </RouterLink>
@@ -68,22 +68,22 @@
       <img 
         src="/images/hero/bridal-fullsize-banner.jpg" 
         alt="Lecotrus Royal Bridal Heirloom Campaign"
-        class="absolute inset-0 w-full h-full object-cover opacity-90 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
+        class="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-100 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
 
       <div class="relative z-10 max-w-4xl text-center px-6 space-y-5">
-        <h2 class="font-serif text-5xl md:text-7xl font-normal tracking-[0.2em] text-white leading-tight drop-shadow-md">
+        <h2 class="font-serif text-5xl md:text-7xl font-normal tracking-[0.2em] text-white leading-tight drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">
           BRIDAL HEIRLOOM
         </h2>
-        <p class="text-sm md:text-base text-zinc-100 max-w-xl mx-auto font-light tracking-widest leading-relaxed drop-shadow">
+        <p class="text-sm md:text-base text-zinc-100 max-w-xl mx-auto font-light tracking-widest leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
           Generational lehengas, hand-embroidered zardozi ensembles, and bespoke trousseau crafted for your eternal moment.
         </p>
 
         <div class="pt-4 flex items-center justify-center">
           <RouterLink 
             to="/bridal" 
-            class="px-10 py-4 bg-transparent border-2 border-white text-white text-xs font-semibold uppercase tracking-[0.3em] hover:bg-white hover:text-black shadow-2xl transition-all duration-300 backdrop-blur-xs"
+            class="px-10 py-4 bg-black/40 border-2 border-white text-white text-xs font-semibold uppercase tracking-[0.3em] hover:bg-white hover:text-black shadow-2xl transition-all duration-300 backdrop-blur-xs"
           >
             Explore Bridal Suite →
           </RouterLink>
@@ -96,22 +96,22 @@
       <img 
         src="/images/hero/accessories-fullsize-banner.jpg" 
         alt="Lecotrus Fine Accessories & Jewels Campaign"
-        class="absolute inset-0 w-full h-full object-cover opacity-90 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
+        class="absolute inset-0 w-full h-full object-cover opacity-100 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
 
       <div class="relative z-10 max-w-4xl text-center px-6 space-y-5">
-        <h2 class="font-serif text-5xl md:text-7xl font-normal tracking-[0.2em] text-white leading-tight drop-shadow-md">
+        <h2 class="font-serif text-5xl md:text-7xl font-normal tracking-[0.2em] text-white leading-tight drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">
           FINE ACCESSORIES
         </h2>
-        <p class="text-sm md:text-base text-zinc-100 max-w-xl mx-auto font-light tracking-widest leading-relaxed drop-shadow">
+        <p class="text-sm md:text-base text-zinc-100 max-w-xl mx-auto font-light tracking-widest leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
           Sculpted mother-of-pearl minaudières, heirloom polki emerald necklaces, and hand-embroidered royal silk mojaris.
         </p>
 
         <div class="pt-4 flex items-center justify-center">
           <RouterLink 
             to="/accessories" 
-            class="px-10 py-4 bg-transparent border-2 border-white text-white text-xs font-semibold uppercase tracking-[0.3em] hover:bg-white hover:text-black shadow-2xl transition-all duration-300 backdrop-blur-xs"
+            class="px-10 py-4 bg-black/40 border-2 border-white text-white text-xs font-semibold uppercase tracking-[0.3em] hover:bg-white hover:text-black shadow-2xl transition-all duration-300 backdrop-blur-xs"
           >
             Explore Accessories →
           </RouterLink>
@@ -132,12 +132,12 @@
           <img 
             src="/images/sarees/saree-1-banarasi.jpg" 
             alt="Women's Couture"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700"
           />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-transparent flex flex-col justify-end p-6 space-y-1.5">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-6 space-y-1.5">
             <span class="text-[10px] tracking-[0.3em] text-[#eab308] uppercase font-semibold">Collection I</span>
             <h3 class="font-serif text-xl tracking-widest text-white group-hover:text-[#fef08a] transition-colors">WOMEN'S COUTURE</h3>
-            <p class="text-xs text-zinc-300 font-light leading-relaxed">Draped Concept Sarees, Anarkalis & Capes</p>
+            <p class="text-xs text-zinc-200 font-light leading-relaxed">Draped Concept Sarees, Anarkalis & Capes</p>
             <div class="pt-2 flex items-center text-xs text-[#fef08a] uppercase tracking-widest font-semibold group-hover:translate-x-1 transition-transform">
               <span>Explore Women →</span>
             </div>
@@ -149,12 +149,12 @@
           <img 
             src="/images/hero/menswear-garden-campaign.jpg" 
             alt="Men's Bespoke"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700"
           />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-transparent flex flex-col justify-end p-6 space-y-1.5">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-6 space-y-1.5">
             <span class="text-[10px] tracking-[0.3em] text-[#eab308] uppercase font-semibold">Collection II</span>
             <h3 class="font-serif text-xl tracking-widest text-white group-hover:text-[#fef08a] transition-colors">MEN'S BESPOKE</h3>
-            <p class="text-xs text-zinc-300 font-light leading-relaxed">Royal Sherwanis, Bandhgalas & Silk Shirts</p>
+            <p class="text-xs text-zinc-200 font-light leading-relaxed">Royal Sherwanis, Bandhgalas & Silk Shirts</p>
             <div class="pt-2 flex items-center text-xs text-[#fef08a] uppercase tracking-widest font-semibold group-hover:translate-x-1 transition-transform">
               <span>Explore Men's Bespoke →</span>
             </div>
@@ -166,12 +166,12 @@
           <img 
             src="/images/lehengas/lehenga-1-crimson.jpg" 
             alt="The Bridal Suite"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700"
           />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-transparent flex flex-col justify-end p-6 space-y-1.5">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-6 space-y-1.5">
             <span class="text-[10px] tracking-[0.3em] text-[#eab308] uppercase font-semibold">Heirloom</span>
             <h3 class="font-serif text-xl tracking-widest text-white group-hover:text-[#fef08a] transition-colors">THE BRIDAL SUITE</h3>
-            <p class="text-xs text-zinc-300 font-light leading-relaxed">Heirloom Lehengas, Gowns & Trousseau</p>
+            <p class="text-xs text-zinc-200 font-light leading-relaxed">Heirloom Lehengas, Gowns & Trousseau</p>
             <div class="pt-2 flex items-center text-xs text-[#fef08a] uppercase tracking-widest font-semibold group-hover:translate-x-1 transition-transform">
               <span>Explore Bridal →</span>
             </div>
@@ -183,12 +183,12 @@
           <img 
             src="/images/hero/accessories-fullsize-banner.jpg" 
             alt="Fine Accessories"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700"
           />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-transparent flex flex-col justify-end p-6 space-y-1.5">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-6 space-y-1.5">
             <span class="text-[10px] tracking-[0.3em] text-[#eab308] uppercase font-semibold">Objet d'Art</span>
             <h3 class="font-serif text-xl tracking-widest text-white group-hover:text-[#fef08a] transition-colors">FINE ACCESSORIES</h3>
-            <p class="text-xs text-zinc-300 font-light leading-relaxed">Brass Minaudières, Mojaris & Jewels</p>
+            <p class="text-xs text-zinc-200 font-light leading-relaxed">Brass Minaudières, Mojaris & Jewels</p>
             <div class="pt-2 flex items-center text-xs text-[#fef08a] uppercase tracking-widest font-semibold group-hover:translate-x-1 transition-transform">
               <span>Explore Accessories →</span>
             </div>

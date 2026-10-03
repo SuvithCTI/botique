@@ -5,13 +5,13 @@
       <img 
         src="https://images.unsplash.com/photo-1546804784-896d0dca3805?auto=format&fit=crop&w=2200&q=85" 
         alt="The Grand Bridal Suite"
-        class="absolute inset-0 w-full h-full object-cover opacity-75"
+        class="absolute inset-0 w-full h-full object-cover opacity-100"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent"></div>
       <div class="relative z-10 text-center space-y-4 max-w-2xl px-4">
-        <span class="text-xs uppercase tracking-[0.4em] text-[#fef08a] font-semibold">LECOTRUS HAUTE BRIDAL</span>
-        <h1 class="font-serif text-5xl md:text-6xl tracking-[0.2em] text-white font-normal">THE BRIDAL SUITE</h1>
-        <p class="text-xs md:text-sm text-zinc-200 font-light tracking-widest leading-relaxed">
+        <span class="text-xs uppercase tracking-[0.4em] text-[#fef08a] font-semibold drop-shadow">LECOTRUS HAUTE BRIDAL</span>
+        <h1 class="font-serif text-5xl md:text-6xl tracking-[0.2em] text-white font-normal drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">THE BRIDAL SUITE</h1>
+        <p class="text-xs md:text-sm text-zinc-100 font-light tracking-widest leading-relaxed drop-shadow">
           Heirloom Bridal Lehengas, Sculptural Gowns, and Royal Ceremonial Ethnic Sets.
         </p>
         <div class="pt-4">

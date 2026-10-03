@@ -5,14 +5,14 @@
       <img 
         src="https://images.unsplash.com/photo-1546804784-896d0dca3805?auto=format&fit=crop&w=800&q=80" 
         alt="Bridal Mobile Hero"
-        class="absolute inset-0 w-full h-full object-cover opacity-75"
+        class="absolute inset-0 w-full h-full object-cover opacity-100"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
 
       <div class="relative z-10 space-y-2">
-        <span class="text-[9px] uppercase tracking-[0.35em] text-[#fef08a] font-semibold">THE ATELIER BRIDAL</span>
-        <h1 class="font-serif text-2xl tracking-widest text-white leading-tight">THE BRIDAL SUITE</h1>
-        <p class="text-[11px] text-zinc-200 font-light">Museum-edition lehengas, bridal gowns & royal trousseau sets.</p>
+        <span class="text-[9px] uppercase tracking-[0.35em] text-[#fef08a] font-semibold drop-shadow">THE ATELIER BRIDAL</span>
+        <h1 class="font-serif text-2xl tracking-widest text-white leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">THE BRIDAL SUITE</h1>
+        <p class="text-[11px] text-zinc-100 font-light drop-shadow">Museum-edition lehengas, bridal gowns & royal trousseau sets.</p>
         <div class="pt-1">
           <button 
             @click="bridalStore.openBookingModal()"

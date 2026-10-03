@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-[#0c0c0e] text-[#fef08a] border-t border-[#d4af37]/30 pt-6 pb-20 px-5 text-center space-y-4">
+  <footer class="bg-[#0c0c0e] text-[#fef08a] border-t border-[#d4af37]/30 pt-6 pb-10 px-5 text-center space-y-4">
     <!-- Brand Identity -->
     <div class="space-y-1">
       <div class="text-[9px] uppercase tracking-[0.4em] text-[#d4af37] font-semibold">House of Lecotrus</div>
@@ -30,9 +30,6 @@
       <RouterLink to="/contact" class="hover:text-[#fef08a] transition-colors">Contact Us</RouterLink>
       <button @click="bridalStore.openBookingModal()" class="text-[#fef08a] text-left font-medium">
         Book Appointment ✦
-      </button>
-      <button @click="authStore.openAuthModal('login')" class="text-[#d4af37] hover:text-[#fef08a] text-left font-medium col-span-2 pt-1 border-t border-[#d4af37]/15">
-        {{ authStore.isAuthenticated ? `Account (${authStore.user?.name})` : 'Sign In / Account' }} →
       </button>
     </div>
 
@@ -66,9 +63,7 @@
 import { RouterLink } from 'vue-router'
 import { useBridalStore } from '@/stores/bridalStore'
 import { useLegalStore } from '@/stores/legalStore'
-import { useAuthStore } from '@/stores/authStore'
 
 const bridalStore = useBridalStore()
 const legalStore = useLegalStore()
-const authStore = useAuthStore()
 </script>

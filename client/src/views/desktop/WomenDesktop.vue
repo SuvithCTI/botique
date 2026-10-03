@@ -5,13 +5,13 @@
       <img 
         src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=2000&q=85" 
         alt="Women's Haute Couture Banner"
-        class="absolute inset-0 w-full h-full object-cover opacity-65"
+        class="absolute inset-0 w-full h-full object-cover opacity-100"
       />
-      <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/80"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-black/55 via-black/20 to-black/55"></div>
       <div class="relative z-10 text-center space-y-3 px-4">
-        <span class="text-xs uppercase tracking-[0.4em] text-[#fef08a] font-semibold">AUTUMN / WINTER COUTURE</span>
-        <h1 class="font-serif text-4xl md:text-6xl tracking-[0.25em] text-white font-normal">WOMEN'S COUTURE</h1>
-        <p class="text-xs md:text-sm text-zinc-200 font-light tracking-widest max-w-xl mx-auto leading-relaxed">
+        <span class="text-xs uppercase tracking-[0.4em] text-[#fef08a] font-semibold drop-shadow">AUTUMN / WINTER COUTURE</span>
+        <h1 class="font-serif text-4xl md:text-6xl tracking-[0.25em] text-white font-normal drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">WOMEN'S COUTURE</h1>
+        <p class="text-xs md:text-sm text-zinc-100 font-light tracking-widest max-w-xl mx-auto leading-relaxed drop-shadow">
           Sarees, Kurti sets, and contemporary Coord sets handcrafted with master zardozi.
         </p>
       </div>
