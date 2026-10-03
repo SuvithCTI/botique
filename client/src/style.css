@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-montserrat);
+    background-color: #ffffff;
+    color: #18181b;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: var(--font-cinzel);
+  }
+
+  .font-editorial {
+    font-family: var(--font-cormorant);
+  }
+
+  img {
+    image-rendering: auto;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+}
+
+/* Custom Scrollbar for luxury white aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f4f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8860b;
+}
+
+/* Glassmorphism & Luxury Glow Utilities for Light Theme */
+.luxury-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(184, 134, 11, 0.2);
+}
+
+.luxury-card {
+  background-color: #ffffff;
+  border: 1px solid #e4e4e7;
+  transition: all 0.3s ease;
+}
+.luxury-card:hover {
+  border-color: #b8860b;
+  box-shadow: 0 10px 30px -10px rgba(184, 134, 11, 0.15);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #b8860b 0%, #8a6405 50%, #594002 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to right, transparent, #b8860b, transparent) 1;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Image Zoom on hover */
+.img-zoom-container {
+  overflow: hidden;
+}
+.img-zoom-container img {
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.img-zoom-container:hover img {
+  transform: scale(1.06);
+}
