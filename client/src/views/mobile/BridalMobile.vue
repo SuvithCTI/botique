@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-6 pb-28 px-3.5 pt-16 bg-white text-[#18181b]">
+  <div class="space-y-6 pb-10 px-3.5 pt-16 bg-white text-[#18181b]">
     <!-- Grand Bridal Hero -->
     <div class="relative h-64 rounded-sm overflow-hidden flex flex-col justify-end p-5 border border-zinc-200 bg-[#f4f3ef] shadow-md">
       <img 
@@ -86,12 +86,6 @@
             :alt="product.name" 
             class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105" 
           />
-          <span 
-            v-if="product.badge"
-            class="absolute top-2 left-2 px-2 py-0.5 bg-black/80 backdrop-blur-xs text-[#fef08a] text-[8px] font-semibold uppercase tracking-wider rounded-2xs"
-          >
-            {{ product.badge }}
-          </span>
         </div>
 
         <div class="space-y-1">

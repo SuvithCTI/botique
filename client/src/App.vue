@@ -14,10 +14,9 @@
     <!-- Desktop Footer (PC Only, hidden on Admin routes) -->
     <DesktopFooter v-if="isDesktop && !isAdminRoute" />
 
-    <!-- Mobile Footer & Bottom Bar (Phone Only, hidden on Admin routes) -->
+    <!-- Mobile Footer (Phone Only, hidden on Admin routes) -->
     <template v-else-if="!isDesktop && !isAdminRoute">
       <MobileFooter />
-      <MobileBottomBar />
     </template>
 
     <!-- Shared Modals & Drawers -->
@@ -42,7 +41,6 @@ import DesktopFooter from '@/components/desktop/DesktopFooter.vue'
 // Mobile Navigation
 import MobileHeader from '@/components/mobile/MobileHeader.vue'
 import MobileFooter from '@/components/mobile/MobileFooter.vue'
-import MobileBottomBar from '@/components/mobile/MobileBottomBar.vue'
 
 // Shared Modals
 import LuxuryCartDrawer from '@/components/shared/LuxuryCartDrawer.vue'

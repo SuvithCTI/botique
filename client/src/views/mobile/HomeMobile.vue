@@ -1,37 +1,5 @@
 <template>
-  <div class="space-y-6 pb-28 px-3.5 pt-16 bg-white text-[#18181b]">
-    <!-- QUICK HORIZONTAL CATEGORY SCROLLER -->
-    <div class="flex gap-2 overflow-x-auto pb-1 -mx-3.5 px-3.5 scrollbar-none text-[11px]">
-      <RouterLink 
-        to="/women" 
-        class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#faf9f6] border border-zinc-200 text-zinc-800 font-medium whitespace-nowrap shadow-2xs hover:border-black"
-      >
-        <span>👗</span>
-        <span>Women's Couture</span>
-      </RouterLink>
-      <RouterLink 
-        to="/men" 
-        class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#faf9f6] border border-zinc-200 text-zinc-800 font-medium whitespace-nowrap shadow-2xs hover:border-black"
-      >
-        <span>🤵</span>
-        <span>Men's Bespoke</span>
-      </RouterLink>
-      <RouterLink 
-        to="/bridal" 
-        class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#faf9f6] border border-[#d4af37]/60 text-[#b8860b] font-semibold whitespace-nowrap shadow-2xs hover:border-black"
-      >
-        <span>💍</span>
-        <span>Bridal Suite</span>
-      </RouterLink>
-      <RouterLink 
-        to="/accessories" 
-        class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#faf9f6] border border-zinc-200 text-zinc-800 font-medium whitespace-nowrap shadow-2xs hover:border-black"
-      >
-        <span>✨</span>
-        <span>Fine Accessories</span>
-      </RouterLink>
-    </div>
-
+  <div class="space-y-6 pb-10 px-3.5 pt-16 bg-white text-[#18181b]">
     <!-- MOBILE HERO (Women's Couture) -->
     <section class="relative h-[72vh] rounded-sm overflow-hidden flex flex-col justify-end p-6 border border-zinc-200 bg-[#18181b] shadow-md">
       <img 
@@ -206,33 +174,6 @@
             <p class="text-[9px] text-zinc-300">Explore Jewels →</p>
           </div>
         </RouterLink>
-      </div>
-    </section>
-
-    <!-- ATELIER TRUST PILLARS -->
-    <section class="bg-[#faf9f6] border border-zinc-200 rounded-sm p-4 space-y-3.5 text-center">
-      <span class="text-[9px] uppercase tracking-[0.35em] text-[#b8860b] font-semibold">THE LECOTRUS PROMISE</span>
-      <div class="grid grid-cols-2 gap-3 text-left">
-        <div class="p-2.5 bg-white border border-zinc-200 rounded-xs space-y-1">
-          <span class="text-base">⚜️</span>
-          <h4 class="font-serif text-[11px] font-semibold text-black">Artisanal Mastercraft</h4>
-          <p class="text-[10px] text-zinc-600 font-light leading-snug">Hand-embroidered zardozi and pure Mulberry & Matka silks.</p>
-        </div>
-        <div class="p-2.5 bg-white border border-zinc-200 rounded-xs space-y-1">
-          <span class="text-base">🏛️</span>
-          <h4 class="font-serif text-[11px] font-semibold text-black">Flagship Atelier</h4>
-          <p class="text-[10px] text-zinc-600 font-light leading-snug">Private salon consultations in R.S. Puram, Coimbatore.</p>
-        </div>
-        <div class="p-2.5 bg-white border border-zinc-200 rounded-xs space-y-1">
-          <span class="text-base">✨</span>
-          <h4 class="font-serif text-[11px] font-semibold text-black">Bespoke Fitting</h4>
-          <p class="text-[10px] text-zinc-600 font-light leading-snug">Custom measurements taken by master couturiers.</p>
-        </div>
-        <div class="p-2.5 bg-white border border-zinc-200 rounded-xs space-y-1">
-          <span class="text-base">📦</span>
-          <h4 class="font-serif text-[11px] font-semibold text-black">White-Glove Delivery</h4>
-          <p class="text-[10px] text-zinc-600 font-light leading-snug">Complimentary insured delivery across Coimbatore & India.</p>
-        </div>
       </div>
     </section>
   </div>

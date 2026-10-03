@@ -1,5 +1,5 @@
 <template>
-  <div v-if="product" class="space-y-6 pb-32 px-4 pt-16 bg-white text-[#18181b]">
+  <div v-if="product" class="space-y-6 pb-10 px-4 pt-16 bg-white text-[#18181b]">
     <!-- Top Bar Navigation & Wishlist -->
     <div class="flex items-center justify-between text-xs text-zinc-500 pb-2 border-b border-zinc-200">
       <button @click="$router.back()" class="text-black font-medium flex items-center gap-1 cursor-pointer">
@@ -19,33 +19,14 @@
       </div>
     </div>
 
-    <!-- Product Image Gallery (Full Touch Card with Gallery Switcher) -->
-    <div class="space-y-2">
+    <!-- Product Image Gallery (Full Touch Card) -->
+    <div>
       <div class="relative aspect-[3/4] w-full rounded-sm overflow-hidden bg-[#faf9f6] border border-zinc-200 shadow-xs">
         <img 
           :src="activeImage" 
           :alt="product.name" 
           class="w-full h-full object-cover object-top transition-opacity duration-300"
         />
-        <span 
-          v-if="product.badge"
-          class="absolute top-3 left-3 px-2.5 py-1 bg-black/85 backdrop-blur-xs text-[#fef08a] text-[8.5px] font-semibold uppercase tracking-wider rounded-2xs"
-        >
-          {{ product.badge }}
-        </span>
-      </div>
-
-      <!-- Thumbnails Selector if Multiple Images exist -->
-      <div v-if="productImages.length > 1" class="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
-        <button 
-          v-for="(img, idx) in productImages" 
-          :key="idx"
-          @click="activeImage = img"
-          class="w-14 h-16 rounded-xs overflow-hidden border-2 transition-all cursor-pointer flex-shrink-0"
-          :class="activeImage === img ? 'border-black shadow-xs' : 'border-zinc-200 opacity-60 hover:opacity-100'"
-        >
-          <img :src="img" :alt="`${product.name} view ${idx + 1}`" class="w-full h-full object-cover" />
-        </button>
       </div>
     </div>
 
