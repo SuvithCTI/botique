@@ -6,6 +6,9 @@
         src="/images/hero/hero-womens-couture.jpg" 
         alt="Lecotrus Women's Haute Couture Hero"
         class="absolute inset-0 w-full h-full object-cover opacity-100 scale-100 transition-transform duration-1000 ease-out"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-black/20"></div>
 
@@ -41,6 +44,8 @@
         src="/images/hero/menswear-fullsize-banner.jpg" 
         alt="Lecotrus Royal Menswear Heritage Campaign"
         class="absolute inset-0 w-full h-full object-cover opacity-100 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
+        loading="lazy"
+        decoding="async"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
 
@@ -69,6 +74,8 @@
         src="/images/hero/bridal-fullsize-banner.jpg" 
         alt="Lecotrus Royal Bridal Heirloom Campaign"
         class="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-100 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
+        loading="lazy"
+        decoding="async"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
 
@@ -97,6 +104,8 @@
         src="/images/hero/accessories-fullsize-banner.jpg" 
         alt="Lecotrus Fine Accessories & Jewels Campaign"
         class="absolute inset-0 w-full h-full object-cover opacity-100 scale-100 hover:scale-105 transition-transform duration-1000 ease-out"
+        loading="lazy"
+        decoding="async"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
 
@@ -133,6 +142,8 @@
             src="/images/sarees/saree-1-banarasi.jpg" 
             alt="Women's Couture"
             class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700"
+            loading="lazy"
+            decoding="async"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-6 space-y-1.5">
             <span class="text-[10px] tracking-[0.3em] text-[#eab308] uppercase font-semibold">Collection I</span>
@@ -150,6 +161,8 @@
             src="/images/hero/menswear-garden-campaign.jpg" 
             alt="Men's Bespoke"
             class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700"
+            loading="lazy"
+            decoding="async"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-6 space-y-1.5">
             <span class="text-[10px] tracking-[0.3em] text-[#eab308] uppercase font-semibold">Collection II</span>
@@ -167,6 +180,8 @@
             src="/images/lehengas/lehenga-1-crimson.jpg" 
             alt="The Bridal Suite"
             class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700"
+            loading="lazy"
+            decoding="async"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-6 space-y-1.5">
             <span class="text-[10px] tracking-[0.3em] text-[#eab308] uppercase font-semibold">Heirloom</span>
@@ -184,6 +199,8 @@
             src="/images/hero/accessories-fullsize-banner.jpg" 
             alt="Fine Accessories"
             class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700"
+            loading="lazy"
+            decoding="async"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-6 space-y-1.5">
             <span class="text-[10px] tracking-[0.3em] text-[#eab308] uppercase font-semibold">Objet d'Art</span>

@@ -6,6 +6,9 @@
         src="/images/hero/hero-womens-couture.jpg" 
         alt="Lecotrus Women's Couture Mobile Hero"
         class="absolute inset-0 w-full h-full object-cover opacity-100"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20"></div>
 
@@ -44,6 +47,8 @@
         src="/images/hero/menswear-fullsize-banner.jpg" 
         alt="Lecotrus Menswear Mobile Campaign"
         class="absolute inset-0 w-full h-full object-cover opacity-100"
+        loading="lazy"
+        decoding="async"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent"></div>
 
@@ -75,6 +80,8 @@
         src="/images/hero/bridal-fullsize-banner.jpg" 
         alt="Lecotrus Bridal Mobile Campaign"
         class="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-100"
+        loading="lazy"
+        decoding="async"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent"></div>
 
@@ -106,6 +113,8 @@
         src="/images/hero/accessories-fullsize-banner.jpg" 
         alt="Lecotrus Fine Accessories Mobile Campaign"
         class="absolute inset-0 w-full h-full object-cover opacity-100"
+        loading="lazy"
+        decoding="async"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent"></div>
 
@@ -140,7 +149,7 @@
 
       <div class="grid grid-cols-2 gap-3">
         <RouterLink to="/women" class="relative h-48 rounded-sm overflow-hidden border border-zinc-200 block shadow-xs group">
-          <img src="/images/sarees/saree-1-banarasi.jpg" class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-500" />
+          <img src="/images/sarees/saree-1-banarasi.jpg" loading="lazy" decoding="async" class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-500" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-3">
             <span class="text-[8px] text-[#fef08a] uppercase tracking-wider font-semibold">Collection I</span>
             <h3 class="font-serif text-xs tracking-wider text-white">WOMEN'S COUTURE</h3>
@@ -149,7 +158,7 @@
         </RouterLink>
 
         <RouterLink to="/men" class="relative h-48 rounded-sm overflow-hidden border border-zinc-200 block shadow-xs group">
-          <img src="/images/hero/menswear-garden-campaign.jpg" class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-500" />
+          <img src="/images/hero/menswear-garden-campaign.jpg" loading="lazy" decoding="async" class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-500" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-3">
             <span class="text-[8px] text-[#fef08a] uppercase tracking-wider font-semibold">Collection II</span>
             <h3 class="font-serif text-xs tracking-wider text-white">MEN'S BESPOKE</h3>
@@ -158,7 +167,7 @@
         </RouterLink>
 
         <RouterLink to="/bridal" class="relative h-48 rounded-sm overflow-hidden border border-zinc-200 block shadow-xs group">
-          <img src="/images/lehengas/lehenga-1-crimson.jpg" class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-500" />
+          <img src="/images/lehengas/lehenga-1-crimson.jpg" loading="lazy" decoding="async" class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-500" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-3">
             <span class="text-[8px] text-[#fef08a] uppercase tracking-wider font-semibold">Heirloom</span>
             <h3 class="font-serif text-xs tracking-wider text-white">BRIDAL SUITE</h3>
@@ -167,7 +176,7 @@
         </RouterLink>
 
         <RouterLink to="/accessories" class="relative h-48 rounded-sm overflow-hidden border border-zinc-200 block shadow-xs group">
-          <img src="/images/hero/accessories-fullsize-banner.jpg" class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-500" />
+          <img src="/images/hero/accessories-fullsize-banner.jpg" loading="lazy" decoding="async" class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-500" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent flex flex-col justify-end p-3">
             <span class="text-[8px] text-[#fef08a] uppercase tracking-wider font-semibold">Objet d'Art</span>
             <h3 class="font-serif text-xs tracking-wider text-white">ACCESSORIES</h3>

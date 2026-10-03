@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, defineAsyncComponent } from 'vue'
 import { RouterView, useRoute } from 'vue-router'
 import { useDevice } from '@/composables/useDevice'
 
@@ -42,11 +42,11 @@ import DesktopFooter from '@/components/desktop/DesktopFooter.vue'
 import MobileHeader from '@/components/mobile/MobileHeader.vue'
 import MobileFooter from '@/components/mobile/MobileFooter.vue'
 
-// Shared Modals
-import LuxuryCartDrawer from '@/components/shared/LuxuryCartDrawer.vue'
-import BridalAppointmentModal from '@/components/shared/BridalAppointmentModal.vue'
-import LuxuryAuthModal from '@/components/shared/LuxuryAuthModal.vue'
-import LegalPolicyModal from '@/components/shared/LegalPolicyModal.vue'
+// Shared Modals (Async Loaded on demand to maximize speed)
+const LuxuryCartDrawer = defineAsyncComponent(() => import('@/components/shared/LuxuryCartDrawer.vue'))
+const BridalAppointmentModal = defineAsyncComponent(() => import('@/components/shared/BridalAppointmentModal.vue'))
+const LuxuryAuthModal = defineAsyncComponent(() => import('@/components/shared/LuxuryAuthModal.vue'))
+const LegalPolicyModal = defineAsyncComponent(() => import('@/components/shared/LegalPolicyModal.vue'))
 
 const route = useRoute()
 const { isDesktop } = useDevice()
