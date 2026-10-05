@@ -126,6 +126,13 @@
           >
             Contact Atelier
           </RouterLink>
+          <span class="text-[#d4af37]/40">·</span>
+          <RouterLink 
+            to="/admin" 
+            class="text-[#d4af37] hover:text-[#fef08a] transition-colors font-medium"
+          >
+            Admin Console 🔒
+          </RouterLink>
         </div>
       </div>
     </div>

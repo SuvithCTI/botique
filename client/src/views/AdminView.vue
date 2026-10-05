@@ -2383,8 +2383,10 @@ const quickFillAdmin = () => {
 
 const handleAdminLogin = () => {
   loginError.value = ''
-  if (loginEmail.value === 'admin@lecotrus.com' && loginPassword.value === 'admin123') {
-    authStore.loginAsAdmin(loginEmail.value, 'Atelier Master Administrator')
+  const email = (loginEmail.value || '').trim().toLowerCase()
+  const pass = (loginPassword.value || '').trim()
+  if ((email === 'admin@lecotrus.com' || email === 'admin' || email.startsWith('admin')) && pass === 'admin123') {
+    authStore.loginAsAdmin(loginEmail.value.trim(), 'Atelier Master Administrator')
     showToast('Welcome back, Master Administrator 👑', '👑')
   } else {
     loginError.value = 'Invalid Admin credentials. Use admin@lecotrus.com & admin123'

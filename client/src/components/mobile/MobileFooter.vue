@@ -47,8 +47,15 @@
           @click="legalStore.openPolicy('terms')" 
           class="text-[#d4af37] hover:text-[#fef08a] underline font-light"
         >
-          Terms & Conditions
+          Terms
         </button>
+        <span class="text-[#d4af37]/40">•</span>
+        <RouterLink 
+          to="/admin" 
+          class="text-[#d4af37] hover:text-[#fef08a] underline font-medium"
+        >
+          Admin 🔒
+        </RouterLink>
       </div>
 
       <div class="text-[#c5a059]/70 text-[9.5px] space-y-0.5">

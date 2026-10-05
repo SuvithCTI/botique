@@ -39,15 +39,14 @@
           </div>
 
           <div class="space-y-2.5">
-            <a 
+            <RouterLink 
               v-if="authStore.isAdmin"
-              href="/admin" 
-              target="_blank"
+              to="/admin" 
               @click="authStore.closeAuthModal"
               class="block w-full py-3 bg-[#18181b] text-[#fef08a] border border-[#d4af37]/30 text-center text-xs font-semibold uppercase tracking-[0.2em] hover:bg-[#b8860b] hover:text-black transition-all rounded-xs shadow-sm"
             >
-              Open Admin Dashboard (New Tab) ↗
-            </a>
+              Open Admin Dashboard 👑
+            </RouterLink>
 
             <button 
               @click="authStore.logout"
@@ -179,10 +178,11 @@ const password = ref('')
 
 const handleUnifiedLogin = () => {
   const identifier = email.value.trim().toLowerCase()
-  // If admin credentials / admin email is entered, authenticate as Administrator and open admin in new page/tab
+  // If admin credentials / admin email is entered, authenticate as Administrator and route to /admin
   if (identifier === 'admin' || identifier.startsWith('admin@') || identifier === 'admin@lecotrus.com') {
     authStore.loginAsAdmin(email.value, 'Atelier Administrator')
-    window.open('/admin', '_blank')
+    authStore.closeAuthModal()
+    router.push('/admin')
   } else {
     const displayName = email.value.split('@')[0] || 'Valued Client'
     authStore.login(email.value, displayName, 'customer')
@@ -193,7 +193,8 @@ const handleRegister = () => {
   const identifier = email.value.trim().toLowerCase()
   if (identifier === 'admin' || identifier.startsWith('admin@')) {
     authStore.loginAsAdmin(email.value, name.value || 'Atelier Administrator')
-    window.open('/admin', '_blank')
+    authStore.closeAuthModal()
+    router.push('/admin')
   } else {
     authStore.login(email.value, name.value || 'Customer', 'customer')
   }
