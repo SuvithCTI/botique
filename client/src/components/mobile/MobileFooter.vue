@@ -12,12 +12,12 @@
     <!-- WhatsApp Concierge Pill -->
     <div>
       <a 
-        href="https://wa.me/919876543210" 
+        href="https://wa.me/919047474454" 
         target="_blank" 
         class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#d4af37]/10 border border-[#d4af37]/30 text-[#fef08a] text-[10.5px] font-medium tracking-wider"
       >
         <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-        WhatsApp Concierge: +91 422 245 6789
+        WhatsApp Concierge: +91 90474 74454
       </a>
     </div>
 
@@ -49,13 +49,6 @@
         >
           Terms
         </button>
-        <span class="text-[#d4af37]/40">•</span>
-        <RouterLink 
-          to="/admin" 
-          class="text-[#d4af37] hover:text-[#fef08a] underline font-medium"
-        >
-          Admin 🔒
-        </RouterLink>
       </div>
 
       <div class="text-[#c5a059]/70 text-[9.5px] space-y-0.5">

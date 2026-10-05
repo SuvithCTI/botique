@@ -1645,7 +1645,7 @@
                     v-model="appointmentForm.phone" 
                     type="text" 
                     required 
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 90474 74454"
                     class="w-full px-3.5 py-2.5 border-2 border-zinc-300 rounded-xs bg-white text-black font-bold"
                   />
                 </div>
@@ -2317,7 +2317,7 @@
                 </div>
                 <div class="text-center text-[10px] text-zinc-500 font-semibold">
                   <div>Venkatachalam Chetty St, R.S. Puram, Coimbatore 641002</div>
-                  <div>Phone: +91 422 245 6789 · House of Lecotrus</div>
+                  <div>Phone: +91 90474 74454 · House of Lecotrus</div>
                 </div>
                 <div class="text-center">
                   <div class="w-32 border-b border-black mb-1"></div>

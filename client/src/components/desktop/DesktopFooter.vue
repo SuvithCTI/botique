@@ -13,12 +13,12 @@
           </p>
           <div class="pt-1.5 space-y-1.5">
             <a 
-              href="https://wa.me/919876543210" 
+              href="https://wa.me/919047474454" 
               target="_blank" 
               class="inline-flex items-center gap-2 px-3 py-1 rounded-sm bg-[#d4af37]/10 border border-[#d4af37]/30 text-[#fef08a] hover:bg-[#d4af37]/20 text-[11px] font-medium tracking-wider transition-all"
             >
               <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-              WhatsApp Concierge: +91 422 245 6789
+              WhatsApp Concierge: +91 90474 74454
             </a>
             <p class="text-[#c5a059]/80 font-light text-[11px]">Direct: coimbatore@lecotrus.com</p>
           </div>
@@ -125,13 +125,6 @@
             class="hover:text-[#fef08a] transition-colors"
           >
             Contact Atelier
-          </RouterLink>
-          <span class="text-[#d4af37]/40">·</span>
-          <RouterLink 
-            to="/admin" 
-            class="text-[#d4af37] hover:text-[#fef08a] transition-colors font-medium"
-          >
-            Admin Console 🔒
           </RouterLink>
         </div>
       </div>

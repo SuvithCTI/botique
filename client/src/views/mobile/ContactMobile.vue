@@ -57,7 +57,7 @@
       <!-- Quick Contact Actions -->
       <div class="grid grid-cols-3 gap-2 pt-1">
         <a
-          href="tel:+914222456789"
+          href="tel:+919047474454"
           class="flex flex-col items-center gap-1.5 py-3 bg-[#faf8f4] border border-[#dcd4c7] rounded-lg active:scale-95 hover:border-black transition-all text-center shadow-2xs group"
         >
           <span class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
@@ -66,7 +66,7 @@
           <span class="text-[9.5px] uppercase tracking-wider font-bold text-black">Call Us</span>
         </a>
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/919047474454"
           target="_blank"
           class="flex flex-col items-center gap-1.5 py-3 bg-[#faf8f4] border border-[#dcd4c7] rounded-lg active:scale-95 hover:border-black transition-all text-center shadow-2xs group"
         >
@@ -131,7 +131,7 @@
           <input
             v-model="phone"
             type="tel"
-            placeholder="Phone / WhatsApp Number"
+            placeholder="+91 90474 74454"
             class="w-full bg-[#faf8f4] border border-[#dcd4c7] px-3.5 py-2.5 text-xs text-black placeholder:text-zinc-500 font-medium focus:bg-white focus:border-black focus:ring-2 focus:ring-black/10 focus:outline-none rounded-md transition-all duration-300"
           />
         </div>

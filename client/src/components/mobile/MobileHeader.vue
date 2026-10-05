@@ -226,9 +226,9 @@
               Book Private Salon Fitting
             </button>
             <div class="flex items-center justify-center gap-3 text-[11px] text-zinc-600 font-light">
-              <a href="tel:+914222456789" class="hover:text-black underline">📞 +91 422 245 6789</a>
+              <a href="tel:+919047474454" class="hover:text-black underline">📞 +91 90474 74454</a>
               <span>•</span>
-              <a href="https://wa.me/919876543210" target="_blank" class="text-emerald-700 font-semibold hover:underline">💬 WhatsApp Concierge</a>
+              <a href="https://wa.me/919047474454" target="_blank" class="text-emerald-700 font-semibold hover:underline">💬 WhatsApp Concierge</a>
             </div>
           </div>
         </div>

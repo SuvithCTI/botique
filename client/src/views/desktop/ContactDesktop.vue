@@ -87,19 +87,19 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
               <!-- Phone -->
               <a 
-                href="tel:+914222456789" 
+                href="tel:+919047474454" 
                 class="flex flex-col p-4 rounded-lg bg-[#faf8f4] border border-[#dcd4c7] hover:border-black hover:bg-white hover:-translate-y-1.5 hover:shadow-md transition-all duration-300 group cursor-pointer"
               >
                 <span class="w-9 h-9 rounded-full bg-black text-white flex items-center justify-center group-hover:rotate-12 transition-all duration-300 mb-2 shadow-2xs">
                   <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.5 11.5 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.5 11.5 0 00.57 3.6 1 1 0 01-.25 1.01l-2.2 2.18z"/></svg>
                 </span>
                 <span class="text-[10px] uppercase tracking-wider text-black font-bold">Phone</span>
-                <span class="text-xs font-bold text-black mt-0.5">+91 422 245 6789</span>
+                <span class="text-xs font-bold text-black mt-0.5">+91 90474 74454</span>
               </a>
 
               <!-- WhatsApp -->
               <a 
-                href="https://wa.me/919876543210" 
+                href="https://wa.me/919047474454" 
                 target="_blank" 
                 class="flex flex-col p-4 rounded-lg bg-[#faf8f4] border border-[#dcd4c7] hover:border-black hover:bg-white hover:-translate-y-1.5 hover:shadow-md transition-all duration-300 group cursor-pointer"
               >
@@ -159,7 +159,7 @@
               <input
                 v-model="phone"
                 type="tel"
-                placeholder="+91 98765 43210"
+                placeholder="+91 90474 74454"
                 class="w-full bg-[#faf8f4] border border-[#dcd4c7] rounded-md px-4 py-3 text-xs text-black placeholder:text-zinc-500 font-medium focus:bg-white focus:border-black focus:ring-2 focus:ring-black/10 focus:outline-none tracking-wide transition-all duration-300"
               />
             </div>

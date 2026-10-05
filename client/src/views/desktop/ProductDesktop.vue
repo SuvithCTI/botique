@@ -143,7 +143,7 @@
           <div class="grid grid-cols-3 gap-2.5">
             <!-- Call Us -->
             <a 
-              href="tel:+912288994433" 
+              href="tel:+919047474454" 
               class="border border-zinc-200 hover:border-zinc-800 bg-white py-3.5 px-2 flex flex-col items-center justify-center gap-1.5 transition-colors text-center group cursor-pointer rounded-xs"
             >
               <svg class="w-5 h-5 text-zinc-800 group-hover:text-black transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -166,7 +166,7 @@
 
             <!-- WhatsApp Us -->
             <a 
-              :href="`https://wa.me/9102288994433?text=${encodeURIComponent(`Hello Lecotrus Concierge, I need assistance with ${product.name} (₹${product.price.toLocaleString('en-IN')}).`)}`" 
+              :href="`https://wa.me/919047474454?text=${encodeURIComponent(`Hello Lecotrus Concierge, I need assistance with ${product.name} (₹${product.price.toLocaleString('en-IN')}).`)}`" 
               target="_blank"
               class="border border-zinc-200 hover:border-zinc-800 bg-white py-3.5 px-2 flex flex-col items-center justify-center gap-1.5 transition-colors text-center group cursor-pointer rounded-xs"
             >

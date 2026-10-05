@@ -144,7 +144,7 @@
       <div class="grid grid-cols-3 gap-2">
         <!-- Call Us -->
         <a 
-          href="tel:+914222456789" 
+          href="tel:+919047474454" 
           class="border border-zinc-200 bg-white py-3 px-1.5 flex flex-col items-center justify-center gap-1.5 text-center rounded-xs hover:border-black transition-colors"
         >
           <svg class="w-4 h-4 text-[#b8860b]" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.5 11.5 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.5 11.5 0 00.57 3.6 1 1 0 01-.25 1.01l-2.2 2.18z"/></svg>
@@ -162,7 +162,7 @@
 
         <!-- WhatsApp Us -->
         <a 
-          :href="`https://wa.me/919876543210?text=${encodeURIComponent(`Hello Lecotrus Concierge, I am interested in ${product.name} (₹${product.price.toLocaleString('en-IN')}).`)}`" 
+          :href="`https://wa.me/919047474454?text=${encodeURIComponent(`Hello Lecotrus Concierge, I am interested in ${product.name} (₹${product.price.toLocaleString('en-IN')}).`)}`" 
           target="_blank"
           class="border border-zinc-200 bg-white py-3 px-1.5 flex flex-col items-center justify-center gap-1.5 text-center rounded-xs hover:border-emerald-600 transition-colors"
         >

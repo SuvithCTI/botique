@@ -167,7 +167,7 @@
                         v-model="addressForm.phone" 
                         type="tel" 
                         required 
-                        placeholder="98765 43210"
+                        placeholder="90474 74454"
                         class="w-full px-3.5 py-2.5 border border-zinc-300 rounded-r-sm text-xs focus:outline-none focus:border-[#b8860b] bg-[#faf9f6]"
                       />
                     </div>
@@ -679,7 +679,7 @@
             <!-- Direct Concierge Help -->
             <div class="p-3.5 bg-[#faf9f6] border border-[#d4af37]/30 rounded-sm text-center space-y-1">
               <p class="text-[11px] text-[#b8860b] font-semibold tracking-wider uppercase">Need Personal Atelier Assistance?</p>
-              <p class="text-[11px] text-zinc-500 font-light">Direct WhatsApp Concierge: +91 422 245 6789</p>
+              <p class="text-[11px] text-zinc-500 font-light">Direct WhatsApp Concierge: +91 90474 74454</p>
             </div>
           </div>
 
@@ -728,7 +728,7 @@
         <!-- Actions -->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <a 
-            :href="`https://wa.me/919876543210?text=Hello%20Lecotrus%20Atelier,%20I%20have%20placed%20order%20${completedOrder?.orderId}.%20Please%20guide%20me%20on%20fitting%20and%20timeline.`"
+            :href="`https://wa.me/919047474454?text=Hello%20Lecotrus%20Atelier,%20I%20have%20placed%20order%20${completedOrder?.orderId}.%20Please%20guide%20me%20on%20fitting%20and%20timeline.`"
             target="_blank"
             class="w-full sm:w-auto px-6 py-3 bg-[#18181b] text-[#fef08a] text-xs uppercase tracking-widest font-semibold hover:bg-[#b8860b] hover:text-black transition-all flex items-center justify-center gap-2"
           >

@@ -57,7 +57,7 @@
                 v-model="form.phone" 
                 type="tel" 
                 required 
-                placeholder="+91 98765 43210"
+                placeholder="+91 90474 74454"
                 class="w-full bg-[#faf9f6] border border-zinc-300 px-3.5 py-2.5 text-xs text-black focus:border-[#b8860b] focus:outline-none"
               />
             </div>

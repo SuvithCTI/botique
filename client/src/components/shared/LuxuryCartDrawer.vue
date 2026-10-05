@@ -183,7 +183,7 @@
                     <span class="font-serif text-sm font-bold text-[#b8860b]">₹{{ order.total?.toLocaleString('en-IN') }}</span>
                   </div>
                   <a 
-                    :href="`https://wa.me/919876543210?text=Hello%20Lecotrus%20Atelier,%20checking%20status%20for%20order%20${order.orderId}`"
+                    :href="`https://wa.me/919047474454?text=Hello%20Lecotrus%20Atelier,%20checking%20status%20for%20order%20${order.orderId}`"
                     target="_blank"
                     class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#18181b] text-[#fef08a] hover:bg-[#b8860b] hover:text-black rounded-xs text-[10.5px] font-semibold tracking-wider transition-all"
                   >
